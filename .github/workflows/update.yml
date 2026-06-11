@@ -1,6 +1,9 @@
 name: Update proxy configurations
 
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
   schedule:
     - cron: "0 */4 * * *"
@@ -16,18 +19,30 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v6
 
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.14"
+
+      - name: Validate generator syntax
+        run: python -m py_compile merge_lists.py
+
       - name: Generate proxy lists
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: |
-          python3 merge_lists.py \
+          python merge_lists.py \
             --source-dir source \
-            --output-dir output
+            --defaults-dir defaults \
+            --output-dir output \
+            --report-json output/report.json \
+            --report-md output/report.md
 
       - name: Commit generated config changes
         run: |
@@ -38,6 +53,7 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          generated_at="$(TZ=Asia/Singapore date '+%Y-%m-%d %H:%M:%S %Z')"
           git add output
-          git commit -m "chore: update generated proxy configurations"
+          git commit -m "chore: update generated proxy configurations [${generated_at}]"
           git push
