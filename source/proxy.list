@@ -1,0 +1,25 @@
+# One GitHub file URL per line.
+# Blank lines and lines starting with # are ignored.
+# Inline labels are allowed after " #", for example:
+# https://github.com/example/repo/blob/main/rules/Foo.list # Foo
+
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Apple/Apple_Domain.list # {PIN-START}
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Apple/Apple.list # {PIN-START}
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Telegram/Telegram.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Google/Google.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/OpenAI/OpenAI.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Discord/Discord.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Instagram/Instagram.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Facebook/Facebook.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Whatsapp/Whatsapp.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/GitHub/GitHub.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Mail/Mail.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Cloudflare/Cloudflare.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Microsoft/Microsoft.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Reddit/Reddit.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Twitter/Twitter.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Amazon/Amazon.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Imgur/Imgur.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/Pinterest/Pinterest.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/GlobalMedia/GlobalMedia_Domain.list
+https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/GlobalMedia/GlobalMedia.list

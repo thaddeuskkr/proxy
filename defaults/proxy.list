@@ -1,0 +1,16 @@
+# tkkr.dev
+DOMAIN-SUFFIX,tkkr.dev
+DOMAIN-SUFFIX,ruminati.ng
+
+# 奈云
+DOMAIN-SUFFIX,v2ny.de
+
+# Apple Intelligence, Siri
+# https://support.apple.com/en-us/101555
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+
+# CNAME for apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net

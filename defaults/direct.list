@@ -1,0 +1,16 @@
+# tkkr.dev
+DOMAIN-SUFFIX,tkkr.link
+
+# Banking
+DOMAIN-SUFFIX,maribank.com.sg
+
+# LAN
+IP-CIDR,192.168.0.0/16
+IP-CIDR,10.0.0.0/8
+IP-CIDR,172.16.0.0/12
+IP-CIDR,127.0.0.0/8
+
+# {END}
+
+# China
+GEOIP,CN
