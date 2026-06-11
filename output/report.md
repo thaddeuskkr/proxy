@@ -3,11 +3,11 @@
 ## output/direct.list
 
 - Sources: 7
-- Fetched active lines: 27012
-- Raw emitted lines: 27012
+- Fetched active lines: 27014
+- Raw emitted lines: 27014
 - Final emitted lines: 15427
 - Removed exact duplicates: 103
-- Removed covered CIDRs: 11482
+- Removed covered CIDRs: 11484
 - Removed domain redundancies: 0
 
 ### Rule Types After
@@ -27,7 +27,7 @@
 
 ### Largest Sources
 
-- 22794: rule/Shadowrocket/ChinaIPs/ChinaIPs.list
+- 22796: rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 - 3691: rule/Shadowrocket/China/China_Domain.list
 - 440: rule/Shadowrocket/ChinaMedia/ChinaMedia.list
 - 63: rule/Shadowrocket/China/China.list

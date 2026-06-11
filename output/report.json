@@ -7,10 +7,10 @@
         "dot_keyword_to_suffix": 1
       },
       "emitted_line_count": 15427,
-      "fetched_line_count": 27012,
+      "fetched_line_count": 27014,
       "largest_sources": [
         {
-          "emitted_line_count": 22794,
+          "emitted_line_count": 22796,
           "source_path": "rule/Shadowrocket/ChinaIPs/ChinaIPs.list",
           "source_url": "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list"
         },
@@ -46,9 +46,9 @@
         }
       ],
       "output_path": "output/direct.list",
-      "raw_emitted_line_count": 27012,
+      "raw_emitted_line_count": 27014,
       "removed_counts": {
-        "covered_cidr": 11482,
+        "covered_cidr": 11484,
         "domain_redundancy": 0,
         "exact_duplicate": 103
       },
@@ -65,7 +65,7 @@
         "DOMAIN-KEYWORD": 10,
         "DOMAIN-SUFFIX": 3953,
         "GEOIP": 1,
-        "IP-CIDR": 22903,
+        "IP-CIDR": 22905,
         "USER-AGENT": 66
       },
       "source_count": 7,
