@@ -1,4 +1,4 @@
-name: Update proxy configurations
+name: Generate proxy lists
 
 on:
   push:
