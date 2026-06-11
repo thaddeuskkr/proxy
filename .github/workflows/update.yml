@@ -1,4 +1,4 @@
-name: Generate proxy lists
+name: Generate proxy configurations
 
 on:
   push:
@@ -30,8 +30,14 @@ jobs:
         with:
           python-version: "3.14"
 
-      - name: Validate generator syntax
-        run: python -m py_compile merge_lists.py
+      - name: Validate Python syntax
+        run: |
+          python -m py_compile merge_lists.py
+
+          for generator in generate_*.py; do
+            [ -e "$generator" ] || continue
+            python -m py_compile "$generator"
+          done
 
       - name: Generate proxy lists
         env:
@@ -44,10 +50,22 @@ jobs:
             --report-json output/report.json \
             --report-md output/report.md
 
-      - name: Commit generated config changes
+      - name: Generate client configs
+        run: |
+          for generator in generate_*.py; do
+            [ -e "$generator" ] || continue
+
+            echo "Running ${generator}"
+            python "$generator" \
+              --config-dir config \
+              --rules-dir output \
+              --output-dir output
+          done
+
+      - name: Commit changes
         run: |
           if [ -z "$(git status --porcelain -- output)" ]; then
-            echo "No generated config changes to commit."
+            echo "No changes to commit."
             exit 0
           fi
 
