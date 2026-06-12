@@ -2,17 +2,17 @@
 
 ## output/direct.list
 
-- Sources: 5
-- Fetched active lines: 3778
-- Raw emitted lines: 3778
-- Final emitted lines: 3771
+- Sources: 6
+- Fetched active lines: 3780
+- Raw emitted lines: 3780
+- Final emitted lines: 3773
 - Removed exact duplicates: 1
 - Removed covered CIDRs: 6
 - Removed domain redundancies: 0
 
 ### Rule Types After
 
-- DOMAIN: 12
+- DOMAIN: 14
 - DOMAIN-KEYWORD: 8
 - DOMAIN-SUFFIX: 3700
 - GEOIP: 1
@@ -31,7 +31,7 @@
 - 63: rule/Shadowrocket/China/China.list
 - 17: rule/Shadowrocket/SteamCN/SteamCN.list
 - 6: defaults/direct.list
-- 1: defaults/direct.list:end
+- 2: rule/Shadowrocket/AppStore/AppStore.list
 
 ### Warning Examples
 
@@ -46,23 +46,23 @@
 
 ## output/proxy.list
 
-- Sources: 21
-- Fetched active lines: 6386
-- Raw emitted lines: 6386
-- Final emitted lines: 6338
-- Removed exact duplicates: 46
-- Removed covered CIDRs: 2
+- Sources: 15
+- Fetched active lines: 5408
+- Raw emitted lines: 5408
+- Final emitted lines: 5392
+- Removed exact duplicates: 16
+- Removed covered CIDRs: 0
 - Removed domain redundancies: 0
 
 ### Rule Types After
 
-- DOMAIN: 21
-- DOMAIN-KEYWORD: 50
-- DOMAIN-SUFFIX: 5138
+- DOMAIN: 11
+- DOMAIN-KEYWORD: 46
+- DOMAIN-SUFFIX: 4243
 - IP-ASN: 7
-- IP-CIDR: 1025
+- IP-CIDR: 991
 - URL-REGEX: 1
-- USER-AGENT: 96
+- USER-AGENT: 93
 
 ### Conversions
 
@@ -75,7 +75,7 @@
 - 1311: rule/Shadowrocket/GlobalMedia/GlobalMedia_Domain.list
 - 1021: rule/Shadowrocket/GlobalMedia/GlobalMedia.list
 - 698: rule/Shadowrocket/Google/Google.list
-- 671: rule/Shadowrocket/Microsoft/Microsoft.list
+- 570: rule/Shadowrocket/Facebook/Facebook.list
 
 ### Warning Examples
 
