@@ -2,22 +2,22 @@
 
 ## output/direct.list
 
-- Sources: 7
-- Fetched active lines: 27014
-- Raw emitted lines: 27014
-- Final emitted lines: 15427
-- Removed exact duplicates: 103
-- Removed covered CIDRs: 11484
+- Sources: 5
+- Fetched active lines: 3778
+- Raw emitted lines: 3778
+- Final emitted lines: 3771
+- Removed exact duplicates: 1
+- Removed covered CIDRs: 6
 - Removed domain redundancies: 0
 
 ### Rule Types After
 
-- DOMAIN: 79
-- DOMAIN-KEYWORD: 10
-- DOMAIN-SUFFIX: 3861
+- DOMAIN: 12
+- DOMAIN-KEYWORD: 8
+- DOMAIN-SUFFIX: 3700
 - GEOIP: 1
-- IP-CIDR: 11414
-- USER-AGENT: 62
+- IP-CIDR: 19
+- USER-AGENT: 31
 
 ### Conversions
 
@@ -27,11 +27,11 @@
 
 ### Largest Sources
 
-- 22796: rule/Shadowrocket/ChinaIPs/ChinaIPs.list
 - 3691: rule/Shadowrocket/China/China_Domain.list
-- 440: rule/Shadowrocket/ChinaMedia/ChinaMedia.list
 - 63: rule/Shadowrocket/China/China.list
 - 17: rule/Shadowrocket/SteamCN/SteamCN.list
+- 6: defaults/direct.list
+- 1: defaults/direct.list:end
 
 ### Warning Examples
 
@@ -43,8 +43,6 @@
 - Complex keyword preserved: DOMAIN-KEYWORD,microsoft
 - Complex keyword preserved: DOMAIN-KEYWORD,officecdn
 - Complex keyword preserved: DOMAIN-KEYWORD,taobao
-- Complex keyword preserved: DOMAIN-KEYWORD,bilibili
-- Complex keyword preserved: DOMAIN-KEYWORD,qiyi
 
 ## output/proxy.list
 

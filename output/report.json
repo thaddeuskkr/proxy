@@ -6,23 +6,13 @@
         "domain_leading_dot_to_suffix": 3674,
         "dot_keyword_to_suffix": 1
       },
-      "emitted_line_count": 15427,
-      "fetched_line_count": 27014,
+      "emitted_line_count": 3771,
+      "fetched_line_count": 3778,
       "largest_sources": [
-        {
-          "emitted_line_count": 22796,
-          "source_path": "rule/Shadowrocket/ChinaIPs/ChinaIPs.list",
-          "source_url": "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/ChinaIPs/ChinaIPs.list"
-        },
         {
           "emitted_line_count": 3691,
           "source_path": "rule/Shadowrocket/China/China_Domain.list",
           "source_url": "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/China/China_Domain.list"
-        },
-        {
-          "emitted_line_count": 440,
-          "source_path": "rule/Shadowrocket/ChinaMedia/ChinaMedia.list",
-          "source_url": "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/ChinaMedia/ChinaMedia.list"
         },
         {
           "emitted_line_count": 63,
@@ -46,29 +36,29 @@
         }
       ],
       "output_path": "output/direct.list",
-      "raw_emitted_line_count": 27014,
+      "raw_emitted_line_count": 3778,
       "removed_counts": {
-        "covered_cidr": 11484,
+        "covered_cidr": 6,
         "domain_redundancy": 0,
-        "exact_duplicate": 103
+        "exact_duplicate": 1
       },
       "rule_type_counts_after": {
-        "DOMAIN": 79,
-        "DOMAIN-KEYWORD": 10,
-        "DOMAIN-SUFFIX": 3861,
+        "DOMAIN": 12,
+        "DOMAIN-KEYWORD": 8,
+        "DOMAIN-SUFFIX": 3700,
         "GEOIP": 1,
-        "IP-CIDR": 11414,
-        "USER-AGENT": 62
+        "IP-CIDR": 19,
+        "USER-AGENT": 31
       },
       "rule_type_counts_before": {
-        "DOMAIN": 79,
-        "DOMAIN-KEYWORD": 10,
-        "DOMAIN-SUFFIX": 3953,
+        "DOMAIN": 12,
+        "DOMAIN-KEYWORD": 8,
+        "DOMAIN-SUFFIX": 3701,
         "GEOIP": 1,
-        "IP-CIDR": 22905,
-        "USER-AGENT": 66
+        "IP-CIDR": 25,
+        "USER-AGENT": 31
       },
-      "source_count": 7,
+      "source_count": 5,
       "warnings": [
         "Complex keyword preserved: DOMAIN-KEYWORD,alicdn",
         "Complex keyword preserved: DOMAIN-KEYWORD,alipay",
@@ -77,9 +67,7 @@
         "Complex keyword preserved: DOMAIN-KEYWORD,beplay",
         "Complex keyword preserved: DOMAIN-KEYWORD,microsoft",
         "Complex keyword preserved: DOMAIN-KEYWORD,officecdn",
-        "Complex keyword preserved: DOMAIN-KEYWORD,taobao",
-        "Complex keyword preserved: DOMAIN-KEYWORD,bilibili",
-        "Complex keyword preserved: DOMAIN-KEYWORD,qiyi"
+        "Complex keyword preserved: DOMAIN-KEYWORD,taobao"
       ]
     },
     {
