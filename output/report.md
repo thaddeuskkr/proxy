@@ -3,9 +3,9 @@
 ## output/direct.list
 
 - Sources: 6
-- Fetched active lines: 3780
-- Raw emitted lines: 3780
-- Final emitted lines: 3773
+- Fetched active lines: 3778
+- Raw emitted lines: 3778
+- Final emitted lines: 3771
 - Removed exact duplicates: 1
 - Removed covered CIDRs: 6
 - Removed domain redundancies: 0
@@ -14,7 +14,7 @@
 
 - DOMAIN: 14
 - DOMAIN-KEYWORD: 8
-- DOMAIN-SUFFIX: 3700
+- DOMAIN-SUFFIX: 3698
 - GEOIP: 1
 - IP-CIDR: 19
 - USER-AGENT: 31
@@ -22,12 +22,12 @@
 ### Conversions
 
 - domain_bare_to_suffix: 17
-- domain_leading_dot_to_suffix: 3674
+- domain_leading_dot_to_suffix: 3672
 - dot_keyword_to_suffix: 1
 
 ### Largest Sources
 
-- 3691: rule/Shadowrocket/China/China_Domain.list
+- 3689: rule/Shadowrocket/China/China_Domain.list
 - 63: rule/Shadowrocket/China/China.list
 - 17: rule/Shadowrocket/SteamCN/SteamCN.list
 - 6: defaults/direct.list
