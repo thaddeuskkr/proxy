@@ -3,9 +3,9 @@
 ## output/direct.list
 
 - Sources: 6
-- Fetched active lines: 3778
-- Raw emitted lines: 3778
-- Final emitted lines: 3771
+- Fetched active lines: 3779
+- Raw emitted lines: 3779
+- Final emitted lines: 3772
 - Removed exact duplicates: 1
 - Removed covered CIDRs: 6
 - Removed domain redundancies: 0
@@ -14,7 +14,7 @@
 
 - DOMAIN: 14
 - DOMAIN-KEYWORD: 8
-- DOMAIN-SUFFIX: 3698
+- DOMAIN-SUFFIX: 3699
 - GEOIP: 1
 - IP-CIDR: 19
 - USER-AGENT: 31
@@ -30,7 +30,7 @@
 - 3689: rule/Shadowrocket/China/China_Domain.list
 - 63: rule/Shadowrocket/China/China.list
 - 17: rule/Shadowrocket/SteamCN/SteamCN.list
-- 6: defaults/direct.list
+- 7: defaults/direct.list
 - 2: rule/Shadowrocket/AppStore/AppStore.list
 
 ### Warning Examples
