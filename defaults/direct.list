@@ -4,6 +4,9 @@ DOMAIN-SUFFIX,tkkr.link
 # Banking
 DOMAIN-SUFFIX,maribank.com.sg
 
+# Misc
+DOMAIN-SUFFIX,lucidtrading.com
+
 # LAN
 IP-CIDR,192.168.0.0/16
 IP-CIDR,10.0.0.0/8
