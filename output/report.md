@@ -57,8 +57,8 @@
 ### Rule Types After
 
 - DOMAIN: 11
-- DOMAIN-KEYWORD: 46
-- DOMAIN-SUFFIX: 4243
+- DOMAIN-KEYWORD: 47
+- DOMAIN-SUFFIX: 4242
 - IP-ASN: 7
 - IP-CIDR: 991
 - URL-REGEX: 1
@@ -79,6 +79,7 @@
 
 ### Warning Examples
 
+- Complex keyword preserved: DOMAIN-KEYWORD,naiun
 - Complex keyword preserved: DOMAIN-KEYWORD,nicegram
 - Complex keyword preserved: DOMAIN-KEYWORD,appspot
 - Complex keyword preserved: DOMAIN-KEYWORD,blogspot
@@ -88,4 +89,3 @@
 - Complex keyword preserved: DOMAIN-KEYWORD,openai
 - Complex keyword preserved: DOMAIN-KEYWORD,instagram
 - Complex keyword preserved: DOMAIN-KEYWORD,facebook
-- Complex keyword preserved: DOMAIN-KEYWORD,fbcdn
