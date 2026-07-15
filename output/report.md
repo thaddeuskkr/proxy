@@ -47,9 +47,9 @@
 ## output/proxy.list
 
 - Sources: 15
-- Fetched active lines: 5408
-- Raw emitted lines: 5408
-- Final emitted lines: 5392
+- Fetched active lines: 5409
+- Raw emitted lines: 5409
+- Final emitted lines: 5393
 - Removed exact duplicates: 16
 - Removed covered CIDRs: 0
 - Removed domain redundancies: 0
@@ -58,7 +58,7 @@
 
 - DOMAIN: 11
 - DOMAIN-KEYWORD: 47
-- DOMAIN-SUFFIX: 4242
+- DOMAIN-SUFFIX: 4243
 - IP-ASN: 7
 - IP-CIDR: 991
 - URL-REGEX: 1

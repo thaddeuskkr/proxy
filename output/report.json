@@ -80,8 +80,8 @@
         "domain_bare_to_suffix": 46,
         "domain_leading_dot_to_suffix": 2825
       },
-      "emitted_line_count": 5392,
-      "fetched_line_count": 5408,
+      "emitted_line_count": 5393,
+      "fetched_line_count": 5409,
       "largest_sources": [
         {
           "emitted_line_count": 1560,
@@ -135,7 +135,7 @@
         }
       ],
       "output_path": "output/proxy.list",
-      "raw_emitted_line_count": 5408,
+      "raw_emitted_line_count": 5409,
       "removed_counts": {
         "covered_cidr": 0,
         "domain_redundancy": 0,
@@ -144,7 +144,7 @@
       "rule_type_counts_after": {
         "DOMAIN": 11,
         "DOMAIN-KEYWORD": 47,
-        "DOMAIN-SUFFIX": 4242,
+        "DOMAIN-SUFFIX": 4243,
         "IP-ASN": 7,
         "IP-CIDR": 991,
         "URL-REGEX": 1,
@@ -153,7 +153,7 @@
       "rule_type_counts_before": {
         "DOMAIN": 11,
         "DOMAIN-KEYWORD": 47,
-        "DOMAIN-SUFFIX": 4253,
+        "DOMAIN-SUFFIX": 4254,
         "IP-ASN": 7,
         "IP-CIDR": 994,
         "URL-REGEX": 1,

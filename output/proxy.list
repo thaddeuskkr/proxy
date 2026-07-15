@@ -1603,6 +1603,7 @@ IP-CIDR,63.92.224.0/19,no-resolve
 IP-CIDR,65.199.22.0/23,no-resolve
 DOMAIN-SUFFIX,tkkr.dev
 DOMAIN-SUFFIX,tkkr.net
+DOMAIN-SUFFIX,tkkr.link
 DOMAIN-KEYWORD,naiun
 DOMAIN-SUFFIX,apple-relay.akamaized.net
 DOMAIN-SUFFIX,apple-relay.apple.com
