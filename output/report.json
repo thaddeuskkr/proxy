@@ -6,8 +6,8 @@
         "domain_leading_dot_to_suffix": 3672,
         "dot_keyword_to_suffix": 1
       },
-      "emitted_line_count": 3772,
-      "fetched_line_count": 3779,
+      "emitted_line_count": 3771,
+      "fetched_line_count": 3778,
       "largest_sources": [
         {
           "emitted_line_count": 3689,
@@ -25,7 +25,7 @@
           "source_url": "https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Shadowrocket/SteamCN/SteamCN.list"
         },
         {
-          "emitted_line_count": 7,
+          "emitted_line_count": 6,
           "source_path": "defaults/direct.list",
           "source_url": "local:defaults/direct.list"
         },
@@ -41,7 +41,7 @@
         }
       ],
       "output_path": "output/direct.list",
-      "raw_emitted_line_count": 3779,
+      "raw_emitted_line_count": 3778,
       "removed_counts": {
         "covered_cidr": 6,
         "domain_redundancy": 0,
@@ -50,7 +50,7 @@
       "rule_type_counts_after": {
         "DOMAIN": 14,
         "DOMAIN-KEYWORD": 8,
-        "DOMAIN-SUFFIX": 3699,
+        "DOMAIN-SUFFIX": 3698,
         "GEOIP": 1,
         "IP-CIDR": 19,
         "USER-AGENT": 31
@@ -58,7 +58,7 @@
       "rule_type_counts_before": {
         "DOMAIN": 14,
         "DOMAIN-KEYWORD": 8,
-        "DOMAIN-SUFFIX": 3700,
+        "DOMAIN-SUFFIX": 3699,
         "GEOIP": 1,
         "IP-CIDR": 25,
         "USER-AGENT": 31
