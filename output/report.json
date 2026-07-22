@@ -80,8 +80,8 @@
         "domain_bare_to_suffix": 46,
         "domain_leading_dot_to_suffix": 2825
       },
-      "emitted_line_count": 5393,
-      "fetched_line_count": 5409,
+      "emitted_line_count": 5405,
+      "fetched_line_count": 5421,
       "largest_sources": [
         {
           "emitted_line_count": 1560,
@@ -135,31 +135,31 @@
         }
       ],
       "output_path": "output/proxy.list",
-      "raw_emitted_line_count": 5409,
+      "raw_emitted_line_count": 5421,
       "removed_counts": {
         "covered_cidr": 0,
         "domain_redundancy": 0,
         "exact_duplicate": 16
       },
       "rule_type_counts_after": {
-        "DOMAIN": 11,
+        "DOMAIN": 14,
         "DOMAIN-KEYWORD": 47,
-        "DOMAIN-SUFFIX": 4243,
+        "DOMAIN-SUFFIX": 4252,
         "IP-ASN": 7,
         "IP-CIDR": 991,
         "URL-REGEX": 1,
         "USER-AGENT": 93
       },
       "rule_type_counts_before": {
-        "DOMAIN": 11,
+        "DOMAIN": 14,
         "DOMAIN-KEYWORD": 47,
-        "DOMAIN-SUFFIX": 4254,
+        "DOMAIN-SUFFIX": 4263,
         "IP-ASN": 7,
         "IP-CIDR": 994,
         "URL-REGEX": 1,
         "USER-AGENT": 95
       },
-      "source_count": 15,
+      "source_count": 16,
       "warnings": [
         "Complex keyword preserved: DOMAIN-KEYWORD,naiun",
         "Complex keyword preserved: DOMAIN-KEYWORD,nicegram",
