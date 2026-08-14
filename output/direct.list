@@ -1,4 +1,9 @@
 DOMAIN-SUFFIX,maribank.com.sg
+DOMAIN-SUFFIX,dbs.com
+DOMAIN-SUFFIX,dbs.com.sg
+DOMAIN-SUFFIX,you.co
+DOMAIN-SUFFIX,ocbc.com
+DOMAIN-SUFFIX,sc.com
 DOMAIN-SUFFIX,lucidtrading.com
 IP-CIDR,192.168.0.0/16
 IP-CIDR,10.0.0.0/8
